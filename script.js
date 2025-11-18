@@ -1,12 +1,7 @@
-//<!-- Pasion_Allen Gabrielle_S.              BSIT-3A-->
+document.getElementById('contactButton').addEventListener('click', function() {
+    // This makes a simple alert box pop up when the button is clicked
+    alert("Thanks for visiting! Please email me at your.email@example.com.");
+});
 
-function checkAnswer() {
-const userAnswer = document.getElementById("answer").value.trim();
-const correctAnswer = "22";
-
-if (userAnswer === correctAnswer) {
-document.getElementById("feedback").innerHTML="✅ Correct! JavaScript treats 2 + '2' as string concatenation.";
-} else {
-document.getElementById("feedback").innerHTML = "❌ Incorrect. Try again!";
-}
-}
+// You can add more complex features here later, like form validation
+// to ensure the JavaScript features function properly.
