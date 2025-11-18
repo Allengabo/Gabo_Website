@@ -1,0 +1,49 @@
+<!-- Pasion_Allen Gabrielle_S.              BSIT-3A-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Activity 8</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        input[type="text"] {
+            margin-top: 10px;
+            padding: 8px;
+        }
+
+        input[type="submit"] {
+            padding: 8px 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>QUICK JAVA SCRIPT QUIZ</h1>
+        <p>What is the output of: 2 + '2'?</p>
+
+        <input type="text" id="answer" placeholder="Your answer here" required><br>
+        <input type="submit" value="Submit" onclick="checkAnswer()" placeholder="Type your answer" required>
+        <p id="feedback"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
